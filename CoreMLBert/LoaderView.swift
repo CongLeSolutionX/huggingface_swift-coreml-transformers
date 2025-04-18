@@ -10,7 +10,7 @@ import UIKit
 
 class LoaderView: UIView {
     
-    let loader = UIActivityIndicatorView(style: .whiteLarge)
+    let loader = UIActivityIndicatorView(style: .large)
     
     var isLoading = false {
         didSet {
